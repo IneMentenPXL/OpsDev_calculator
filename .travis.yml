@@ -3,3 +3,18 @@ php:
   - 7.3
 before_script:
  - composer install
+branches:
+  only:
+  - main
+notifications:
+  email:
+    recipients:
+      - Ine.Menten@student.pxl.be
+      - inementen@gmail.com
+    on_success: never
+    on_failure: always
+  webhooks:
+    urls:
+      - https://discord.com/api/webhooks/787999086342045726/29XCDXddSgxQS-QPDEUqcym8JLpciCZUCYS_fCNsUl3DrhbrXeZe1ct4W6ONXDT9yfgQ
+    on_success: always
+    on_failure: always
