@@ -57,4 +57,4 @@ Authenticatie tokens (en andere secrets) mogen natuurlijk niet leesbaar in het s
 Via de cli tool van travis is het ook mogelijk om de webhook string (of andere gevoelige informatie) te encrypteren en deze dan geënwrypteerd in het yml-bestand te plaatsen. Bij het uitvoeren zal achterliggend dan travis a.d.h.v. de juiste keys de data decrypteren.
 
 ## Afbeelding
-![alt text](antwoorden DevOps.png)
+![alt text](./Images/antwoorden_DevOps.png)
