@@ -17,14 +17,14 @@ Hieronder een voorbeeld:
 
 framwork:  
   dbal:  
-    user: root
-    password: ~
-    db: foobar
-  security:
-    secret_key: dae8q97ghquwie6t67
-  modules:
-    - Application
-    - Guestbook
+    user: root  
+    password: ~  
+    db: foobar  
+  security:  
+    secret_key: dae8q97ghquwie6t67  
+  modules:  
+    - Application  
+    - Guestbook  
     
 Een yaml bestand moet juist opgesteld zijn, anders geeft de "parser" errors. Yaml files zijn zeker niet beperkt toch TravisCI, en zal je later nog vaak tegenkomen bij andere configuraties van systemen/tools. 
 
