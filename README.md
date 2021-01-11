@@ -15,8 +15,8 @@ Heroku is een cloud PAAS die het makkelijk maakt om applicaties gebschreven in J
 Yaml is een recursief acroniem voor "YAML Ain't Makrup Language" vergelijkbaar met XML en json. Een opmaaktabel dus die vooral bekend is voor zijn strikte gebruik van spaties en indentaties. 
 Hieronder een voorbeeld:
 
-framwork:
-  dbal:
+framwork:  
+  dbal:  
     user: root
     password: ~
     db: foobar
@@ -42,7 +42,7 @@ Verder is er ook nog een usage plan waar concurrency niet beperkt is maar wel ex
 Webhook: Een webhook is een API concept en wordt getriggerd door een event in een bron applicatie en levert een actie op in een doel applicatie.
 
 Het script wordt vanuit een externe locatie ingeladen in travis om de acties uit te voeren en deze naar de webhook van discord te sturen. Communicatie met webhooks moet opgezet worden in Travis en werkt met een beveiliging door middel van authenticatie tokens.
-Authenticatie tokens (en andere secrets) mogen natuurlijk niet leesbaar in het script staan!
+_Authenticatie tokens (en andere secrets) mogen natuurlijk niet leesbaar in het script staan!_
 
 ## f) Wat is heroku juist? Waarvoor kunnen we dat gebruiken?
 
