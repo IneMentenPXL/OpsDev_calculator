@@ -14,7 +14,7 @@ Heroku is een cloud PAAS die het makkelijk maakt om applicaties gebschreven in J
 
 Yaml is een recursief acroniem voor "YAML Ain't Makrup Language" vergelijkbaar met XML en json. Een opmaaktabel dus die vooral bekend is voor zijn strikte gebruik van spaties en indentaties. 
 Hieronder een voorbeeld:
-
+````
 framwork:  
   dbal:  
     user: root  
@@ -24,8 +24,8 @@ framwork:
     secret_key: dae8q97ghquwie6t67  
   modules:  
     - Application  
-    - Guestbook  
-    
+    - Guestbook
+````   
 Een yaml bestand moet juist opgesteld zijn, anders geeft de "parser" errors. Yaml files zijn zeker niet beperkt toch TravisCI, en zal je later nog vaak tegenkomen bij andere configuraties van systemen/tools. 
 
 ## c) Met welke file uit jenkins kan je de .travis.yml file vergelijken?
