@@ -26,7 +26,7 @@ framwork:
     - Application  
     - Guestbook
 ````   
-Een yaml bestand moet juist opgesteld zijn, anders geeft de "parser" errors. Yaml files zijn zeker niet beperkt toch TravisCI, en zal je later nog vaak tegenkomen bij andere configuraties van systemen/tools. 
+Een yaml bestand moet juist opgesteld zijn, anders geeft de "parser" errors. Yaml files zijn zeker niet beperkt tot TravisCI, en zal je later nog vaak tegenkomen bij andere configuraties van systemen/tools. 
 
 ## c) Met welke file uit jenkins kan je de .travis.yml file vergelijken?
 
