@@ -52,9 +52,9 @@ Heroku heeft ook zijn eigen ingebouwde pipeline/CI tooling die je kan gebruiken.
 
 ## g) Waarom maken we voor het gebruik van de API key & webhook URL gebruik van environment variabelen? Wat is daar het voordeel van? Zijn er nog andere manieren waarop je dit kon doen?
 
-Authenticatie tokens (en andere secrets) mogen natuurlijk niet leesbaar in het script staan, daarom dat we deze veilig opbergen in de environment variabelen. In de yaml-file zelf staat dan enkel een variabele bv. $WEBHOOK_URL of $MYSQL_PASSWORD. Op die manier staan er geen hardcoded wachtwoordene of andere gevoelige informatie in de scripts die mogelijks publiek beschikbaar staan. Het effectieve wachtwoord, API key of de webhook url staan dan in een afgeschermde omgeving.
+Authenticatie tokens (en andere secrets) mogen natuurlijk niet leesbaar in het script staan, daarom dat we deze veilig opbergen in de environment variabelen. In de yaml-file zelf staat dan enkel een variabele bv. $WEBHOOK_URL of $MYSQL_PASSWORD. Op die manier staan er geen hardcoded wachtwoorden of andere gevoelige informatie in de scripts die mogelijks publiek beschikbaar staan. Het effectieve wachtwoord, API key of de webhook url staan dan in een afgeschermde omgeving.
 
-Via de cli tool van travis is het ook mogelijk om de webhook string (of andere gevoelige informatie) te encrypteren en deze dan geënwrypteerd in het yml-bestand te plaatsen. Bij het uitvoeren zal achterliggend dan travis a.d.h.v. de juiste keys de data decrypteren.
+Via de cli tool van travis is het ook mogelijk om de webhook string (of andere gevoelige informatie) te encrypteren en deze dan geëncrypteerd in het yml-bestand te plaatsen. Bij het uitvoeren zal achterliggend dan travis a.d.h.v. de juiste keys de data decrypteren.
 
 ## Afbeelding
 ![alt text](./Images/antwoorden_DevOps.png)
