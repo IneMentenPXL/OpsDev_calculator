@@ -12,7 +12,7 @@ Heroku is een cloud PAAS die het makkelijk maakt om applicaties gebschreven in J
 
 ## b) Na het verkennen van Travis-CI zal je merken dat er gebruikgemaakt wordt van yaml files. Wat voor soort files zijn dit? Hoe zijn die opgebouwd? Hoe zit een yaml syntax/structuur eruit?
 
-Yaml is een recursief acroniem voor "YAML Ain't Makrup Language" vergelijkbaar met XML en json. Een opmaaktabel dus die vooral bekend is voor zijn strikte gebruik van spaties en indentaties. 
+Yaml is een recursief acroniem voor "YAML Ain't Markup Language" vergelijkbaar met XML en json. Een opmaaktabel dus die vooral bekend is voor zijn strikte gebruik van spaties en indentaties. 
 Hieronder een voorbeeld:
 ````
 framwork:  
